@@ -67,11 +67,11 @@
 // alert(`Привет ${user}`);
 
 
-console.log('arr' + "- obj");
-console.log(4 + +'5');
+// console.log('arr' + "- obj");
+// console.log(4 + +'5');
 
-let incr = 10,
-    decr = 10;
+// let incr = 10,
+//     decr = 10;
 
 // ++incr;
 // --decr;
@@ -79,20 +79,40 @@ let incr = 10,
 // console.log(incr++);
 // console.log(decr--);
 
-console.log(++incr);
-console.log(--decr);
+// console.log(++incr);
+// console.log(--decr);
 
-console.log(5%2);
-console.log(4*2 == 8);
-console.log(4*2 === '8');
-console.log(2+2*2 !== '6');
+// console.log(5%2);
+// console.log(4*2 == 8);
+// console.log(4*2 === '8');
+// console.log(2+2*2 !== '6');
 
-let isChaecked = true,
-    isClosed = true;
+// let isChaecked = true,
+//     isClosed = true;
 
-console.log(isChaecked || isClosed);
+// console.log(isChaecked || isClosed);
 
 
+const numberOfFilms = [];
+
+numberOfFilms[0] = +prompt("Сколько фильмов вы уже посмотрели?", "");
+
+const films = [];
+films[1] = prompt("Один из последних просмотренных фильмов?", "");
+films[2] = +prompt("На сколько оцените его?", "");
+
+const personalMoveDB = {
+    count: numberOfFilms[0],
+    movies: {
+        name_film: films[1],
+        vote_film: films[2],
+    },
+    actors: {},
+    genres: [],
+    privat: false,
+};
+
+console.log(personalMoveDB);
 
 
 
