@@ -92,27 +92,81 @@
 
 // console.log(isChaecked || isClosed);
 
+// 1 - практика
 
-const numberOfFilms = [];
+// const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
 
-numberOfFilms[0] = +prompt("Сколько фильмов вы уже посмотрели?", "");
+// const personalMoveDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false,
+// };
 
-const films = [];
-films[1] = prompt("Один из последних просмотренных фильмов?", "");
-films[2] = +prompt("На сколько оцените его?", "");
+// const a = prompt("Один из последних просмотренных фильмов?", ""),
+//       b = +prompt("На сколько оцените его?", ""),
+//       c = prompt("Один из последних просмотренных фильмов?", ""),
+//       d = +prompt("На сколько оцените его?", "");
 
-const personalMoveDB = {
-    count: numberOfFilms[0],
-    movies: {
-        name_film: films[1],
-        vote_film: films[2],
-    },
-    actors: {},
-    genres: [],
-    privat: false,
-};
+// personalMoveDB.movies[a] = b;
+// personalMoveDB.movies[c] = d;
 
-console.log(personalMoveDB);
+// console.log(personalMoveDB);
+
+
+// Условия
+
+// if(4 == 5){
+//     console.log('Error');
+// }else if{
+//     console.log('Error');
+// }else{
+//     console.log('OK!')
+// }
+
+// const num = 49;
+
+// // (num == '40') ? console.log('OK!') : console.log('Error');
+
+// switch(num){
+//     case 49:
+//         console.log('Неверно');
+//         break;
+//     case 100:
+//         console.log('Неверно');
+//         break;
+//     case 40:
+//         console.log('Правильно');
+//         break;
+//     default:
+//         console.log('Не в этот раз');
+//         break;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
