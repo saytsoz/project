@@ -88,7 +88,7 @@ console.log(4*2 === '8');
 console.log(2+2*2 !== '6');
 
 let isChaecked = true,
-    isClosed = false;
+    isClosed = true;
 
 console.log(isChaecked || isClosed);
 
