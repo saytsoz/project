@@ -241,42 +241,71 @@
 
 
 // function
-let num = 20;
+// let num = 20;
 
-function showFirstMessage(text){
-    console.log(text);
-    let num = 10;
-    console.log(num);
-}
+// function showFirstMessage(text){
+//     console.log(text);
+//     let num = 10;
+//     console.log(num);
+// }
 
-showFirstMessage('hello world');
-console.log(num);
-
-
-function calc(a, b){
-    return (a + b);
-}
-
-console.log(calc(4, 5));
-console.log(calc(5, 6));
-console.log(calc(8, 6));
-
-function ret(){
-    let num = 50;
+// showFirstMessage('hello world');
+// console.log(num);
 
 
-    return num;
-}
+// function calc(a, b){
+//     return (a + b);
+// }
 
-const anotherNum = ret();
+// console.log(calc(4, 5));
+// console.log(calc(5, 6));
+// console.log(calc(8, 6));
 
-console.log(anotherNum);
+// function ret(){
+//     let num = 50;
+
+
+//     return num;
+// }
+
+// const anotherNum = ret();
+
+// console.log(anotherNum);
+
+// const logger = function(){
+//     console.log("Hello");
+// };
+
+// logger();
+
+
+// const calculator = (a, b) =>{
+//     return a + b;
+// };
+
+// console.log(calculator(5, 6));
 
 
 
+// методы и своиство строка и чисел
 
+// const str = "test";
+// const arr = [1, 2, 3];
 
+// console.log(str.length);
+// console.log(arr.length);
 
+function f(b) {
+    let a = 12;
+    return a + b + 35;
+  }
+  
+  function g(x) {
+    let m = 4;
+    return f(m * x);
+  }
+  
+  console.log(g(21));
 
 
 
